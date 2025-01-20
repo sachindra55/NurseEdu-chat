@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NurseEdu Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Add markdown-it for markdown rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>NurseEdu Chat 👩‍⚕️</h1>
+                <p>Created by Sachindra</p>
+                <p>Your personal nursing education companion</p>
+            </div>
+            <div id="chat-messages" class="chat-messages">
+                <div class="message assistant">
+                    <div class="message-content">
+                        Hello! I'm your nursing education assistant. I can help you with:
+                        <ul>
+                            <li>Understanding medical concepts</li>
+                            <li>Reviewing procedures and protocols</li>
+                            <li>Clarifying terminology</li>
+                            <li>Discussing patient care scenarios</li>
+                        </ul>
+                        What would you like to learn about today?
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input">
+                <form id="chat-form" class="chat-form">
+                    <textarea 
+                        id="user-input" 
+                        placeholder="Type your question here... (e.g., 'Can you explain the stages of wound healing?')"
+                        rows="3"
+                    ></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="chat-footer">
+                <p> 2025 Sachindra. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
