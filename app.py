@@ -131,5 +131,9 @@ def chat():
             "success": False
         }), 500
 
+# For local development
 if __name__ == '__main__':
     app.run(debug=True, port=5005)
+
+# For Vercel
+app = app
