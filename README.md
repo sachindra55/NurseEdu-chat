@@ -1,6 +1,6 @@
 # NurseEdu Chat
 
-An intelligent nursing education chatbot powered by Google's Gemini Pro AI.
+An intelligent nursing education chatbot powered by Google's Gemini Pro AI. 
 
 ## Created By
 **Author:** Sachindra  
