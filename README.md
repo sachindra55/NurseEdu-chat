@@ -24,4 +24,4 @@ NurseEdu Chat is an interactive educational tool designed to help nursing studen
 - Markdown rendering for formatted responses
 
 ## License
-Copyright 2025 Sachindra. All rights reserved.
+Copyright 2025 Sachindra. All rights reserved. 
