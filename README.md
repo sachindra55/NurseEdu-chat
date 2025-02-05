@@ -3,7 +3,7 @@
 An intelligent nursing education chatbot powered by Google's Gemini Pro AI. 
 
 ## Created By
-**Author:** Sachindra  
+**Author:** Sachindra
 **Year:** 2025
 
 ## About
